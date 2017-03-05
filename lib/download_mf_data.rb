@@ -1,10 +1,6 @@
 # require 'httparty'
-require 'net/http'
-require 'pry'
-require 'active_support/all'
 
 require File.expand_path('../../config/environment',  __FILE__)
-require 'mutual_fund'
 
 # response = HTTParty.get("http://portal.amfiindia.com/spages/NAV0.txt")
 
